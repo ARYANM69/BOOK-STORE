@@ -26,7 +26,7 @@ app.use('/books', booksRoute);
 
 // MongoDB Connection and Server Setup
 mongoose
-  .connect(mongodb+srv://aryanmishra: mrmarlega @cluster0.cum0q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0) 
+  .connect(mongodb+srv://aryanmishra:mrmarlega@cluster0.cum0q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0) 
   .then(() => {
     console.log('App connected to the database');
     app.listen(PORT, () => {
